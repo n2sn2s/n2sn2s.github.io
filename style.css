@@ -1,0 +1,218 @@
+*{
+    margin: 0%;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+  .body{ margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Roboto',sans-serif;
+
+}
+
+.nav{
+    height: 12vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+.main{
+    width: 100%;
+    height: 88vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.rigth{
+    width: 40%;
+    height: 80%;
+
+}
+.left{
+    width: 30%;
+    height: 50%;
+
+}
+.name{
+    font-size: 90px;
+    color: white;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: bold;
+   }
+   .work{
+       font-size: 40px;
+       color: rgb(226, 19, 19);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: bold;
+      margin-bottom: 30px;
+   }
+   
+   .work{
+      
+   }
+   .info {
+       width: 90px;
+       background-color: rgba(255, 102, 0, 0.911);
+       color: white;
+       padding: 10px 5px;
+       border-radius: 10px;
+       font-weight: bold;
+       text-align: center;
+       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+.profil{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: ;
+    background-color: rgb(14, 14, 14);
+
+}
+.profil-left{
+    width: 40%;
+    height: 80%;
+}
+.profil-rigth{
+    width: 30%;
+    height: 80%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img-rigth {
+    width: 79%;
+    height: 33%;
+    margin-bottom: 20px;
+}
+.profil-texte {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 2;
+
+}
+.profil-ecrit{
+    color: rgb(250, 11, 11);
+    font-family: sans-serif;
+    font-size: 45px;
+}
+.profil-petit{
+    color: white;
+    font-family: sans-serif
+    margin-bottom:20px;
+    font-size: 43px;
+}
+.full details{
+    width: 90px;
+       background-color: rgba(255, 102, 0, 0.911);
+       color: rgb(230, 100, 12);
+       padding: 15px 5px;
+       border-radius: 10px;
+       font-weight: bold;
+       text-decoration: none;
+       text-align: center;
+       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Styles pour l'image GIF */
+.exp {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./giphy.gif');
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.EXPERIENCDE {
+    color: white;
+    font-size: 80px;
+    font-family: fantasy;
+}
+
+.link-go {
+    align-self: flex-start;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.go {
+    font-size: 32px;
+    color: orangered;
+   
+    margin-left: 80px;
+}
+.blockexpe {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(26, 42, 42);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card {
+    width: 25%;
+    background-color: rgb(242, 240, 250);
+    padding: 20px;
+    font-family: system-ui;
+    border-radius: 15px;
+}
+
+.card-title {
+    margin-bottom: 20px;
+}
+.card-date {
+    margin-bottom: 50px;
+}
+.card-texte {
+
+}
+.contact {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(32, 44, 44);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-contact {
+    width: 80%;
+    height: 80%;
+    background-image: url("https://cdn.pixabay.com/photo/2015/01/25/21/02/phone-612061_640.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(242, 240, 250);
+    padding: 50px;
+}
+.reseau {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.title-contact{
+    font-size: 76px;
+    margin-top: 330px;
+    color: #202c2c;
+    font-family: system-ui;
+}
